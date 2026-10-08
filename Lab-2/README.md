@@ -10,7 +10,7 @@
 
 ## 📌 Executive Summary & Objective
 
-In this lab, the Functional Requirements established in **Lab 1 (FR-001 through FR-005)** were decomposed into Agile backlog items (Epics, User Stories, and Tasks), prioritized, estimated using Fibonacci Story Points via Planning Poker, and simulated across two consecutive 1-week Sprints in **Atlassian Jira Software**. 
+In this lab, the Functional Requirements established in **Lab 1 (FR-001 through FR-005)** were systematically converted into Agile backlog items (Epics, User Stories, and Tasks), prioritized, estimated using Fibonacci Story Points via Planning Poker, and simulated across two consecutive 1-week Sprints in **Atlassian Jira Software**. 
 
 Sprint progress, velocity, and capacity were tracked and analyzed using Jira's **Burndown Charts**, followed by a comprehensive retrospective addressing estimation accuracy, prioritization, and sprint alignment.
 
@@ -21,11 +21,21 @@ Sprint progress, velocity, and capacity were tracked and analyzed using Jira's *
 ```text
 Lab-2/
 ├── README.md                                          # Lab report and documentation
-├── Lab2_Agile_Backlog_and_Sprint_Simulation.pdf       # Consolidated Master Submission PDF
-├── EPICs_and_User_Stories.pdf                         # Dedicated PDF for Epics & User Stories
-├── EPICs_and_User_Stories.docx                        # Formatted Word Document for Epics & Stories
-├── Burndown_Chart_Analysis.pdf                        # Dedicated PDF for Burndown Charts & Reflections
-├── Burndown_Chart_and_Sprint_Analysis.docx            # Formatted Word Document for Burndown Analysis
+│
+├── [Deliverables as specified in Handout]
+├── EPICs.pdf                                          # Deliverable 1: Epics and User Stories (PDF)
+├── Burndown_chart.pdf                                 # Deliverable 2: Burndown Chart and Analysis (PDF)
+├── Reflection_Questions.pdf                           # Document answering the 4 reflection questions (PDF)
+├── Reflection_Questions.docx                          # Document answering the 4 reflection questions (Word DOCX)
+│
+├── [Comprehensive Supporting Documents]
+├── Lab2_Agile_Backlog_and_Sprint_Simulation.pdf       # Consolidated Master Submission PDF (7 pages)
+├── EPICs_and_User_Stories.pdf                         # Epics & User Stories Detailed Specification (PDF)
+├── EPICs_and_User_Stories.docx                        # Epics & User Stories Formatted Word Document
+├── Burndown_Chart_Analysis.pdf                        # Burndown Chart & Sprint Analysis Detailed (PDF)
+├── Burndown_Chart_and_Sprint_Analysis.docx            # Burndown Chart & Sprint Analysis Formatted Word Document
+│
+├── [Jira Workspace Assets]
 ├── Jira_Backlog_Import.csv                            # Ready-to-import CSV for Jira Cloud/Server
 └── screenshots/
     ├── 01_jira_backlog_with_epics.png                 # Jira Backlog view with Epics panel & Sprints
@@ -132,7 +142,7 @@ The team completed **2 timeboxed 1-week Sprints**:
 
 ---
 
-## 🚀 6. Jira Cloud Setup & Instructor Evaluation Guide
+## 🚀 6. Jira Cloud Setup & Instructor Demonstration Guide
 
 To demonstrate the live project on Jira Software to your instructor:
 
