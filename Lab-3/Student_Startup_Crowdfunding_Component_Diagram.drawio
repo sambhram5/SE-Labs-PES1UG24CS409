@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="comp1" name="Component Diagram">
+    <mxGraphModel dx="1373" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ui" parent="1" style="shape=module;align=center;verticalAlign=middle;jettyWidth=16;jettyHeight=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="«component»&lt;br&gt;&lt;b&gt;User Interface&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cm" parent="1" style="shape=module;align=center;verticalAlign=middle;jettyWidth=16;jettyHeight=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="«component»&lt;br&gt;&lt;b&gt;Campaign Management&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pay" parent="1" style="shape=module;align=center;verticalAlign=middle;jettyWidth=16;jettyHeight=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="«component»&lt;br&gt;&lt;b&gt;Payment &amp; Pledge&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="130" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="mil" parent="1" style="shape=module;align=center;verticalAlign=middle;jettyWidth=16;jettyHeight=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="«component»&lt;br&gt;&lt;b&gt;Milestone &amp; Fund Release&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="550" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="1" style="shape=module;align=center;verticalAlign=middle;jettyWidth=16;jettyHeight=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="«component»&lt;br&gt;&lt;b&gt;Database&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="340" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="i1_ball" parent="1" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="444" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="i1_ball_stub" edge="1" parent="1" source="ui" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1_socket" parent="1" style="shape=requiredInterface;html=1;rotation=90;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="445" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="i1_socket_stub" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cm">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="242" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1_link" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="131" as="sourcePoint" />
+            <mxPoint x="450" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1_label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;" value="Campaign &amp; Pledge Requests" vertex="1">
+          <mxGeometry height="30" width="200" x="470" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i2_socket" parent="1" style="shape=requiredInterface;html=1;rotation=270;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="325" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="i2_socket_stub" edge="1" parent="1" source="cm" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;exitX=0.1;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2_ball" parent="1" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="324" y="449" as="geometry" />
+        </mxCell>
+        <mxCell id="i2_ball_stub" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;entryX=0.9091;entryY=0;entryDx=0;entryDy=0;" target="pay">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="461" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2_link" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="338" as="sourcePoint" />
+            <mxPoint x="330" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2_label" parent="1" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;fontSize=12;" value="Payment Processing API" vertex="1">
+          <mxGeometry height="30" width="190" x="125" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="i3_socket" parent="1" style="shape=requiredInterface;html=1;rotation=270;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="565" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="i3_socket_stub" edge="1" parent="1" source="cm" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;exitX=0.9;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i3_ball" parent="1" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="564" y="449" as="geometry" />
+        </mxCell>
+        <mxCell id="i3_ball_stub" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;entryX=0.0909;entryY=0;entryDx=0;entryDy=0;" target="mil">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="461" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i3_link" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="338" as="sourcePoint" />
+            <mxPoint x="570" y="449" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i3_label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;" value="Milestone Verification &amp; Fund Release API" vertex="1">
+          <mxGeometry height="50" width="220" x="585" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_socket" parent="1" style="shape=requiredInterface;html=1;rotation=270;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="445" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_socket_stub" edge="1" parent="1" source="cm" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_ball" parent="1" style="ellipse;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="444" y="619" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_ball_stub" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="db">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="631" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_link" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="338" as="sourcePoint" />
+            <mxPoint x="450" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;" value="Campaign Data Access" vertex="1">
+          <mxGeometry height="30" width="180" x="470" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="kFsJCFYrNBI7mE7QKBrM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PES1UG24CS409" vertex="1">
+          <mxGeometry height="30" width="160" x="680" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="kFsJCFYrNBI7mE7QKBrM-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&#xa;Student Startup Crowdfunding Platform&#xa;&#xa;" vertex="1">
+          <mxGeometry height="40" width="420" x="24" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="kFsJCFYrNBI7mE7QKBrM-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&#xa;UML Component Diagram — Layered Architecture&#xa;&#xa;" vertex="1">
+          <mxGeometry height="30" width="345" x="90" y="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
